@@ -1,8 +1,8 @@
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - init: pip install trame
-    command: trame examples/VTK/SimpleCone/LocalRendering.py
-
+  - init: pip install -r examples/PlainPython/ChartsAltair/requirements.txt
+    command: trame examples/PlainPython/ChartsAltair/app.py
+    
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
   - port: 8080
