@@ -4,6 +4,9 @@ tasks:
     command: trame examples/PlainPython/ChartsAltair/app.py
     
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
+# These match py-web-vue's defaults from https://github.com/Kitware/py-web-vue/blob/master/python/src/pywebvue/protocol.py
 ports:
   - port: 8080
     onOpen: open-preview
+  - port: 9001-9100
+    onOpen: ignore
