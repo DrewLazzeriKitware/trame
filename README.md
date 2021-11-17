@@ -1,4 +1,5 @@
 # trame: simple, powerful, innovative
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/DrewLazzeriKitware/trame)
 
 **trame** - a web framework that weaves together open source components into customized visual analytics easily.
 
